@@ -1,0 +1,106 @@
+<mxfile host="65bd71144e">
+    <diagram id="S_dY8mxjCIHgeWzkFXoU" name="Page-1">
+        <mxGraphModel dx="1419" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Inicio" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="250" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="A" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="195" y="155" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="B" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="195" y="330" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="FIM" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="250" width="70" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#3700CC;fillColor=#6a00ff;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="145" y="285" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="125" y="185" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="215" y="245" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="205" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="5" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="315" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="1 - Ache o custo mais baixo pra começar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="490" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;fontColor=#000000;" edge="1" parent="1" source="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320.0631967755314" y="606.9079418768085" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="2 - Olhe para os vizinhos dessa vertice com o custo mais baixo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="580" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="22" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="3 - Calcule o novo custo, por exemplo :&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="680" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Para ir do Inicio ao A, o custo da vertice é 6&lt;br&gt;Porém ao seguir Inicio =&amp;gt; B =&amp;gt; A a vertice se torna com o custo 5&lt;br&gt;pois 2 + 3 = 5, logo esse calculo sera feito." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#432D57;fillColor=#76608a;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="690" width="370" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="No caso de B, os vizinhos são,&amp;nbsp; A e FIM" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="345" y="595" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="890" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(238, 255, 255); background-color: rgb(33, 33, 33); font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 21px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #c792ea;&quot;&gt;const&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;novo_custo&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;custo&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;+&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #eeffff;&quot;&gt;vizinhos&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color: #eeffff;font-style: italic;&quot;&gt;vizinho&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="780" width="420" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Custo = 2, pois o menor custo é B, que seria 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="895" width="270" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Vizinho = 3, pois na primeira iteração o vizinho é A, que vale 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="925" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=none;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-20" y="850" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="4 - Se o custo do vizinho for maior que o novo custo, substitua" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="820" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Na tabela hash de vizinhos, atualize o novo custo para o vizinho que esta no loop" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="-440" y="820" width="380" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Na tabela hash de pais, coloque a hash sendo o novo pai" style="text;html=1;strokeColor=#432D57;fillColor=#76608a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="-440" y="895" width="380" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;div style=&quot;color: rgb(238, 255, 255); background-color: rgb(33, 33, 33); font-family: &amp;quot;Fira Code&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 21px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #89ddff;font-style: italic;&quot;&gt;if&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; (&lt;/span&gt;custos&lt;span style=&quot;color: #f07178;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;vizinho&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;] &lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;novo_custo&lt;span style=&quot;color: #f07178;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;      &lt;/span&gt;&lt;span style=&quot;color: #545454;font-style: italic;&quot;&gt;//   console.log(custos[vizinho], vizinho, &quot;ii&quot;, novo_custo);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;      &lt;/span&gt;custos&lt;span style=&quot;color: #f07178;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;vizinho&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;] &lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;novo_custo&lt;span style=&quot;color: #89ddff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;      &lt;/span&gt;pais&lt;span style=&quot;color: #f07178;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;vizinho&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;] &lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #f07178;&quot;&gt; &lt;/span&gt;vertice_com_menor_custo&lt;span style=&quot;color: #89ddff;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #f07178;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: #89ddff;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="-530" y="960" width="530" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
